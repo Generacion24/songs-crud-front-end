@@ -38,7 +38,7 @@ const SongsList = ({ songs, getSongs, showSuccessNotf, showFailNotf, setIsLoadin
                                 <td>{song.name}</td>
                                 <td>{song.artist}</td>
                                 <td>{song.genre}</td>
-                                <td>{song.releaseYear}</td>
+                                <td>{song.releaseDate}</td>
                                 <td>
                                     <Button 
                                         variant='danger'

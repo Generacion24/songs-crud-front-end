@@ -68,7 +68,7 @@ const SongsForm = ({ getSongs, showSuccessNotf, showFailNotf, setIsLoading, song
                 <Col>
                     <Form.Group className="mb-3" controlId="song.ReleaseYear">
                         <Form.Label>Release Year</Form.Label>
-                        <Form.Control type="number" {...register("releaseYear")} />
+                        <Form.Control type="date" {...register("releaseDate")} />
                     </Form.Group>
                 </Col>
             </Row>

@@ -1,3 +1,3 @@
 export const url = {
-  URL_SONGS: 'https://songs-crud.fly.dev/api/v1/songs'
+  URL_SONGS: 'http://localhost:8080/api/v1/songs'
 }
